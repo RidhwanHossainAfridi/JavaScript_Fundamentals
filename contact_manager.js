@@ -2,7 +2,7 @@ function contact(name, number) {
     this.name = name;
     this.number = number;
     this.print = function(){
-        console.log(this.name+': '+this.number)
+        console.log(this.name + ': ' + this.number)
     }
 }
 
